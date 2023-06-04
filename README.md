@@ -3,7 +3,7 @@
 The World Health Organization has estimated that there are approximately 12 million deaths annually related to heart diseases, with half of the deaths in the United States and other developed countries attributed to cardiovascular diseases. The early prognosis of cardiovascular diseases can aid in decision making realted to lifestyle changes in high-risk patients and reduce the complications of heart diease. The intent of this research is to determine the most relevant risk factors of heart disease and forecast the overall risk using machine learning and predictive modeling.
 
 ## Introduction to the data
-The dataset is publically available on the Kaggle website: https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset, and is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information, includes over 4,200 records and 15 of the following attributes:
+The dataset is publically available on the Kaggle website: https://www.kaggle.com/datasets/aasheesh200/framingham-heart-study-dataset, and is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts. The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information, includes over 4,200 records and 16 of the following attributes:
 
 •	male: 0 = Female; 1 = Male
 
