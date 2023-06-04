@@ -91,7 +91,7 @@ We got the following:
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN%20-%20PCA.png)
 
 ## Conclusion
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Model%20Accuracy.png)
 
 
 
