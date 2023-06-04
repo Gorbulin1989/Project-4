@@ -48,18 +48,18 @@ Supervised Machine Learning-
 At first we ran the Decision tree model against all features of our dataset.
 
 [insert DT confusion matrix and Classification report here]
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20DTM.png)
 Provided the low accuracy from the DT model, we decided to build a Random Forest model again using all features, and looking into the order of importance of these features.
 
 [insert RF confusion matrix and Classification report here, and Feature importance image]
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20RF%20-%20PCA.png)
 Next we are interested in seeing how a model would perform dropping the 4 least important features, namely; ‘Prevalent_Stroke’, ‘Diabetes’, ‘Blood_Pressure_Medications’ and ‘Current_Smoker’ And build a K-nearest Neighbor (KNN) and Keras Neural Network (Keras NN) models.
 Neither of these 2 models yielded an accuracy higher than 84% (RF accuracy using all features)
 Therefore we put those all 4 features back in the dataset and re-run the models.
 1) KNN model-
 
 [insert KNN confusion matrix and Classification report here]
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN.png)
 2) Keras NN model-
 Initially, we start with only 1 hidden layer, but seen the promising performance of this model (84.69% accuracy), that prompted us to use the hyperparameter auto-optimizer to tune up the model. In doing so we were able to reach 86% in the end, after increasing epochs from 20 to 30 and then 50.
 
@@ -76,20 +76,19 @@ Principal Component Analysis-
 Another thing, we explored is Principal Component Analysis. With the 15 features we have in our dataset, we examined if there is a plausible cause to group some features.
 
 [insert PCA clusters here]
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Unsupervised%20Methods%20-%20PCA.png)
 As we can see from the image above, it may be worth while running our models against PCA.
 We got the following:
+
 1) RF model with PCA
-
 [insert RF with PCA confusion matrix and Classification report here]
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20RF%20-%20PCA.png)
 2) K-NN model with PCA
-
 [insert KNN with PCA confusion matrix and Classification report here]
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN%20-%20PCA.png)
 3) Keras NN with PCA
-
 [insert Keras NN with PCA best_hyper values and accuracy]
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN%20-%20PCA.png)
 
 ## Conclusion
 
