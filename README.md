@@ -67,6 +67,7 @@ Therefore we put those all 4 features back in the dataset and re-run the models.
 2) Keras NN model-
 Initially, we start with only 1 hidden layer, but seen the promising performance of this model (84.69% accuracy), that prompted us to use the hyperparameter auto-optimizer to tune up the model. In doing so we were able to reach 86% in the end, after increasing epochs from 20 to 30 and then 50.
 
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/KerasNN.PNG)
 
 Subsequently, we tried to optimized our accuracy by trying to get a better training data, using Random OverSampler;
 
