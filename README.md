@@ -47,7 +47,7 @@ Supervised Machine Learning-
 
 At first we ran the Decision tree model against all features of our dataset.
 
-[insert DT confusion matrix and Classification report here]
+
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20DTM.png)
 Provided the low accuracy from the DT model, we decided to build a Random Forest model again using all features, and looking into the order of importance of these features.
 
@@ -58,7 +58,7 @@ Neither of these 2 models yielded an accuracy higher than 84% (RF accuracy using
 Therefore we put those all 4 features back in the dataset and re-run the models.
 1) KNN model-
 
-[insert KNN confusion matrix and Classification report here]
+
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN.png)
 2) Keras NN model-
 Initially, we start with only 1 hidden layer, but seen the promising performance of this model (84.69% accuracy), that prompted us to use the hyperparameter auto-optimizer to tune up the model. In doing so we were able to reach 86% in the end, after increasing epochs from 20 to 30 and then 50.
