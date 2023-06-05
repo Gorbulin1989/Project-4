@@ -53,7 +53,7 @@ First we ran the Decision tree model against all features of our dataset.
 Provided the low accuracy from the DT model, we decided to build a Random Forest model again using all features, and looking into the order of importance of these features.
 
 
-![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20RF%20-%20PCA.png)
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/RF%20model.PNG)
 
 Next we are interested in seeing how a model would perform dropping the 4 least important features, namely; ‘Prevalent_Stroke’, ‘Diabetes’, ‘Blood_Pressure_Medications’ and ‘Current_Smoker’ And build a K-nearest Neighbor (KNN) and Keras Neural Network (Keras NN) models.
 Neither of these 2 models yielded an accuracy higher than 84% (RF accuracy using all features)
