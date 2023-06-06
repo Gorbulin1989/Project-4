@@ -71,10 +71,11 @@ Initially, we start with only 1 hidden layer, but seen the promising performance
 
 Subsequently, we tried to optimized our accuracy by trying to get a better training data, using Random OverSampler;
 
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/random_oversampler_code.png)
 
- In the end the accuracy did not improve.
+As you can see the accuracy did not improve in the end.
 
-Principal Component Analysis-
+# Principal Component Analysis-
 
 Another thing, we explored is Principal Component Analysis. With the 15 features we have in our dataset, we examined if there is a plausible cause to group some features.
 
