@@ -59,12 +59,13 @@ Next we are interested in seeing how a model would perform dropping the 4 least 
 Neither of these 2 models yielded an accuracy higher than 84% (RF accuracy using all features)
 Therefore we put those all 4 features back in the dataset and re-run the models.
 
-1) KNN model-
+K-nearest Neighbor model-
 
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN.png)
 
-2) Keras NN model-
+Keras Neural Network model-
+
 Initially, we start with only 1 hidden layer, but seen the promising performance of this model (84.69% accuracy), that prompted us to use the hyperparameter auto-optimizer to tune up the model. In doing so we were able to reach 86% in the end, after increasing epochs from 20 to 30 and then 50.
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/KerasNN.PNG)
@@ -75,7 +76,7 @@ Subsequently, we tried to optimized our accuracy by trying to get a better train
 
 As you can see the accuracy did not improve in the end.
 
-# Principal Component Analysis-
+### Principal Component Analysis-
 
 Another thing, we explored is Principal Component Analysis. With the 15 features we have in our dataset, we examined if there is a plausible cause to group some features.
 
@@ -84,15 +85,15 @@ Another thing, we explored is Principal Component Analysis. With the 15 features
 As we can see from the image above, it may be worth while running our models against PCA.
 We got the following:
 
-1) RF model with PCA
+1) Random Forest model with PCA
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20RF%20-%20PCA.png)
 
-2) K-NN model with PCA
+2) K-nearest Neighbor model with PCA
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Supervised%20Methods%20-%20KNN%20-%20PCA.png)
 
-3) Keras NN with PCA
+3) Keras Neural Network with PCA
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Keras_NN_PCA.png)
 
