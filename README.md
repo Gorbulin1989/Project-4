@@ -70,11 +70,13 @@ Initially, we start with only 1 hidden layer, but seen the promising performance
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/KerasNN.PNG)
 
+
 Subsequently, we tried to optimized our accuracy by trying to get a better training data, using Random OverSampler;
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/random_oversampler_code.png)
 
 As you can see the accuracy did not improve in the end.
+
 
 ### Principal Component Analysis-
 
@@ -97,10 +99,11 @@ We got the following:
 
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Keras_NN_PCA.png)
 
+
 ## Conclusion
 
 Below illustrates the final accuracy of our models, with Keras NN having the highest degree of accuracy for prediction.
 ![image](https://github.com/Gorbulin1989/Project-4/blob/main/Model%20Accuracy.png)
 
-
+In a nutshell though we got an accuracy of 86%, there is room for improvement with better data, and also referring to the confusion matrices with substantially more true negatives than true positives, we can deduct that our models predict subjects without a likehood of developing heart disease in 10 year better than those with a chance of developing heart disease.
 
