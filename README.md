@@ -93,7 +93,7 @@ We got the following:
 
 3) Keras NN with PCA
 
-
+![image](https://github.com/Gorbulin1989/Project-4/blob/main/Keras_NN_PCA.png)
 
 ## Conclusion
 
